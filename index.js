@@ -3,4 +3,7 @@ import { render } from 'react-dom';
 import App from './App.js';
 import './style.css';
 
-render(<App />, document.getElementById('root'));
+//New components
+import Gallery from './photo_gallery.js';
+
+render(<Gallery />, document.getElementById('root'));
